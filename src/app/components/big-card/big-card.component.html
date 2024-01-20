@@ -1,22 +1,23 @@
 <div class="card">
 
     <div class="card_left">
-        <app-autor-title autor="Diogo News" time="4 hours ago"></app-autor-title>
+        <app-autor-title autor="{{autor}}" time="{{time}}"></app-autor-title>
 
-        <h1>Some big things are happening next week on November 6th 🎉</h1>
+        <a class="card_title text_black" [routerLink]="['content', id]">{{ title }}</a>
 
         <div class="categories text_grey">
-            <p>#Technology</p>
-            <p>#Angular</p>
+            <p *ngFor="let category of categories">#{{category}}</p>
         </div>
 
         <div class="container_article">
-            <button>Read article</button>
+            <a class="text_black" [routerLink]="['content', id]">Read article</a>
         </div>
     </div>
 
     <div class="card_right">
-        <img src="../../../assets/angulart.png" alt="Logo Angular" width="350" height="250">
+        <a [routerLink]="['content', id]">
+            <img src="{{img}}" alt="Imagem da melhor noticia do ano">
+        </a>
     </div>
 
 </div>

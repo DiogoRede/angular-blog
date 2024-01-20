@@ -10,6 +10,11 @@
     flex-direction: column;
 }
 
+.card_left a {
+    text-decoration: none;
+    color: black;
+}
+
 .card_right{
     display: flex;
     align-items: end;

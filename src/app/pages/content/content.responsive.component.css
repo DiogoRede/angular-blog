@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px){
+    .content_cover img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .content_description{
+        padding: 1rem 1rem;
+    }
+}

@@ -4,7 +4,12 @@
     overflow: hidden;
 }
 
-.container p{
+.container a {
+    color: black;
+    text-decoration: none;
+}
+
+.container a p {
     text-overflow: ellipsis;
     overflow: hidden;
 }

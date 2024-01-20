@@ -10,4 +10,12 @@
     .container_right{
         width: 100%;
     }
+
+}
+
+@media screen and (max-width: 580px){
+    .container_new_card{
+        display: flex;
+        flex-direction: column;
+    }
 }

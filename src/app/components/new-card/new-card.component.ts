@@ -10,6 +10,7 @@ export class NewCardComponent implements OnInit {
   @Input() autor:string = '';
   @Input() time:string = '';
   @Input() noticia:string = '';
+  @Input() id:string = '';
 
   constructor() { }
 

@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #eaf3fb;
     border-radius: 1rem;
     padding: 2rem;
@@ -10,18 +10,26 @@
     box-shadow: 10px 10px 62px -14px rgba(0,0,0,0.75);
 }
 
-.container_new_card{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.content_title h1{
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
-.container_left{
-    width: 70%;
-    margin-right: 2rem;
+.content_description{
+    padding: 1rem 4rem;
 }
 
-.container_right{
+.paragrafo{
+    text-indent: 3rem;
+}
+
+.content_cover{
+    display: flex;
+    justify-content: center;
+}
+
+.content_cover img{
+    width: 450px;
+    height: 300px;
     border-radius: 1rem;
-    background-color: white;
-    width: 30%;
 }

@@ -1,5 +1,6 @@
 <div class="container">
     <app-autor-title autor="{{autor}}" time="{{time}}"></app-autor-title>
-
-    <p>{{noticia}}</p>
+    <a [routerLink]="['content', id]">
+        <p>{{noticia}}</p>
+    </a>
 </div>

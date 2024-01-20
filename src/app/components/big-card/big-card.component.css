@@ -4,8 +4,18 @@
     margin: 2.5rem 0;
 }
 
-.card_left h1{
-    margin: 1rem 0;
+.text_black{
+    text-decoration: none;
+    color: black;
+}
+
+.card_title{
+    font-size: 2rem;
+}
+
+.card_right a img{
+    width: 100%;
+    border-radius: 1rem;
 }
 
 .text_grey{
@@ -19,6 +29,7 @@
 }
 
 .categories p{
+    margin-top: 1rem;
     margin-right: 1rem;
     font-size: 0.8rem;
 }
@@ -27,7 +38,7 @@
     margin: 2rem 0;
 }
 
-.container_article button{
+.container_article a{
     border: 0;
     border-radius: 1rem;
     padding: .6rem;

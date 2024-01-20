@@ -1,31 +1,42 @@
 <div class="container">
     <div class="container_left">
-        <app-menu-bar></app-menu-bar>
         <app-menu-title></app-menu-title>
-        <app-big-card></app-big-card>
+        <app-big-card id="1" [categories]="['Technology', 'Angular']" autor="Diogo News" time="4 hours ago" title="Use Angular’s New Deferrable Views Now" img="https://miro.medium.com/v2/resize:fit:720/format:webp/0*LSNoSU-BTMTfpgZr"></app-big-card>
 
         <div class="container_new_card">
-            <app-new-card autor="Rede News" time="1 day ago" noticia="Some big things are happening next week on November 6thSome big things are happening next week on November 6thSome big things are happening next week on November 6thSome big things are happening next week on November 6th"></app-new-card>
-            <app-new-card autor="Gabriel News" time="1 day ago" noticia="Some big things are happening next week on November 6thSome big things are happening next week on November 6thSome big things are happening next week on November 6thSome big things are happening next week on November 6th"></app-new-card>
-            <app-new-card autor="Felipe News" time="1 day ago" noticia="Some big things are happening next week on November 6thSome big things are happening next week on November 6thSome big things are happening next week on November 6thSome big things are happening next week on November 6th"></app-new-card>
+            <app-new-card   id="5"
+                            autor="Rede News" 
+                            time="1 day ago" 
+                            noticia="New free, interactive Angular course for beginners on Sololearn"></app-new-card>
+            <app-new-card   id="6"
+                            autor="Gabriel News" 
+                            time="1 day ago" 
+                            noticia="Angular Developer Survey 2023"></app-new-card>
+            <app-new-card   id="7"
+                            autor="Felipe News" 
+                            time="1 day ago" 
+                            noticia="Introducing Puppeteer Schematics: Test Your Angular Apps with Ease"></app-new-card>
         </div>
     </div>
 
     <div class="container_right">
         <app-search-article></app-search-article>
-        <app-recommended-card autor="Alex Rickabaugh" title="Meet Angular's New Control Flow" img="../../../assets/recommend.png"></app-recommended-card>
-        <app-small-card id="1"
+        <app-recommended-card   id="4"
+                                autor="Alex Rickabaugh" 
+                                title="Meet Angular's New Control Flow" 
+                                img="https://miro.medium.com/v2/resize:fit:720/format:webp/1*zI08S5wgOfyFXrJH0nbwaA.jpeg"></app-recommended-card>
+        <app-small-card id="2"
                         autor="Mark Thompson" 
                         time="10 hours ago"
-                        title="New free, interactive Angular course for beginners on Sololearn"
-                        img="../../../assets/card1.png">
+                        title="Some big things are happening next week on November 6th 🎉"
+                        img="https://miro.medium.com/v2/resize:fit:720/format:webp/1*HdwNFQOaTJBu26gEddg8gw.png">
         </app-small-card>
 
-        <app-small-card id="2"
+        <app-small-card id="3"
                         autor="Enea Jahollari" 
                         time="10 day ago"
                         title="Incremental Static Regeneration for Angular"
-                        img="https://miro.medium.com/v2/resize:fit:720/format:webp/1*Nmb3_8DCuANFEcfXD7iyEQ.png">
+                        img="https://miro.medium.com/v2/resize:fit:720/format:webp/0*CWTw788ACpkIvM67">
         </app-small-card>
     </div>
 </div>

@@ -13,6 +13,7 @@ import { MenuItemComponent } from './components/menu-item/menu-item.component';
 import { SearchArticleComponent } from './components/search-article/search-article.component';
 import { AutorTitleComponent } from './components/autor-title/autor-title.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SmallCardComponent } from './components/small-card/small-card.component
     MenuItemComponent,
     SearchArticleComponent,
     AutorTitleComponent,
-    SmallCardComponent
+    SmallCardComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

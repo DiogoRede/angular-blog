@@ -6,12 +6,15 @@
     </div>
 
     <div class="container_news">
-        <div class="gradient_card_recommend">
-            <img src="{{ img }}" alt="Imagem de noticias recomendadas" width="100%">
-        </div>
+        <a [routerLink]="['content', id]">
+            <div class="gradient_card_recommend">
+                    <img src="{{ img }}" alt="Imagem de noticias recomendadas" width="100%">
+            </div>
+        </a>
+
         <div class="text_overlay">
             <app-autor-title autor="{{autor}}" time="1 day ago" color="alt_text"></app-autor-title>
-            <a href="{{ link }}">{{ title }}</a>
+            <a [routerLink]="['content', id]">{{ title }}</a>
         </div>
     </div>
 

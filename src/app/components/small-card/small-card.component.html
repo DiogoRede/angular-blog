@@ -1,9 +1,13 @@
 <div class="container">
     <div class="card_left">
         <app-autor-title autor="{{ autor }}" time="{{ time }}"></app-autor-title>
-        <h5>{{ title }}</h5>
+        <a [routerLink]="['content', id]">
+            <h5>{{ title }}</h5>
+        </a>
     </div>
-    <div class="card_right">
-        <img src="{{img}}" alt="Imagem Notifia {{ id }}" width="90px" height="90px">
-    </div>
+    <a [routerLink]="['content', id]">
+        <div class="card_right">
+            <img src="{{img}}" alt="Imagem Notifia {{ id }}" width="90px" height="90px">
+        </div>
+    </a>
 </div>
