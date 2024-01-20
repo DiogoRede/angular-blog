@@ -1,0 +1,16 @@
+@media screen and (max-width:580px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_left{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container_right{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
