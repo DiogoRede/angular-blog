@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+}
+
+.card_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.card_right{
+    display: flex;
+    align-items: center;
+}
+
+.card_right img {
+    border-radius: 1rem;
+}

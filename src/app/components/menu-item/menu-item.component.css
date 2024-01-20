@@ -1,0 +1,19 @@
+.not_style{
+    text-decoration: none;
+}
+
+.container_item{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 2rem;
+    padding: .5rem;
+    margin-right: 1rem;
+}
+
+p{
+    margin: 0 .3rem;
+    background-color: white;
+    font-weight: 500;
+    color: black;
+}

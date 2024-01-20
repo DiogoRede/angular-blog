@@ -1,0 +1,15 @@
+.container{
+    height: 100px;
+    margin: 0 .5rem;
+    overflow: hidden;
+}
+
+.container p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container h1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

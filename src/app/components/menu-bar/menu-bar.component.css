@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_left{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}

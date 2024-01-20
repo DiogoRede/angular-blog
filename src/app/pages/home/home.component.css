@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #eaf3fb;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 1rem;
+    -webkit-box-shadow: 10px 10px 62px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 62px -14px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 62px -14px rgba(0,0,0,0.75);
+}
+
+.container_new_card{
+    display: flex;
+    flex-direction: row;
+}
+
+.container_left{
+    width: 70%;
+    margin-right: 2rem;
+}
+
+.container_right{
+    border-radius: 1rem;
+    background-color: #f3f7fc;
+    width: 30%;
+}

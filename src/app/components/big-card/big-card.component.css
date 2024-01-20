@@ -1,0 +1,41 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem 0;
+}
+
+.card_left h1{
+    margin: 1rem 0;
+}
+
+.text_grey{
+    color: #9ca0a5;
+    font-size: 13px;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories p{
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.container_article{
+    margin: 2rem 0;
+}
+
+.container_article button{
+    border: 0;
+    border-radius: 1rem;
+    padding: .6rem;
+    background-color: white;
+    font-weight: 500;
+}
+
+.card_right{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0;
+}
+
+.search_article{
+    background-color: #e6ebf3;
+    padding: .7rem;
+    border-radius: .5rem;
+    width: 95%;
+    border: 0;
+}

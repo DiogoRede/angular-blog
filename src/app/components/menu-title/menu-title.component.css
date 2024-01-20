@@ -1,0 +1,6 @@
+.container_title{
+    padding: .5rem;
+    background: rgb(222,222,222);
+    background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(234,243,251,1) 10%);
+    border-left: 5px solid #b6a8e9;
+}
