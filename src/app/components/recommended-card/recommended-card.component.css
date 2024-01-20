@@ -1,7 +1,7 @@
 .container {
     padding: 1rem;
     position: relative;
-    max-width: 600px; /* Ajuste conforme necessário */
+    max-width: 600px;
     margin: auto;
 }
 

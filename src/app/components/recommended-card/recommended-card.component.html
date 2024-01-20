@@ -7,11 +7,11 @@
 
     <div class="container_news">
         <div class="gradient_card_recommend">
-            <img src="../../../assets/recommend.png" alt="Imagem de noticias recomendadas" width="100%">
+            <img src="{{ img }}" alt="Imagem de noticias recomendadas" width="100%">
         </div>
         <div class="text_overlay">
-            <app-autor-title autor="Felipe News" time="1 day ago" color="alt_text"></app-autor-title>
-            <a href="#">Meet Angular's New Control Flow</a>
+            <app-autor-title autor="{{autor}}" time="1 day ago" color="alt_text"></app-autor-title>
+            <a href="{{ link }}">{{ title }}</a>
         </div>
     </div>
 
